@@ -2,11 +2,11 @@ package modelsBuilder;
 
 public class PersonaB {
 
-	private String nombre;
+	private String nombre = "unknown";
 	
-	private String apellidos;
+	private String apellidos = "unknown";
 	
-	private byte edad;
+	private byte edad = 0;
 
 	public String getNombre() {
 		return nombre;
